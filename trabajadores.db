@@ -1,0 +1,28 @@
+Create table Trabajadores(
+Nombre varchar(20),
+Apellido varchar(20),
+Fecha_de_nacimiento date,
+Genero varchar(20)
+)
+
+Insert into Trabajadores values(
+'Ronaldo', 'Badiilla', '1995-01-05', 'Masculino'
+)
+
+Insert into Trabajadores values(
+'Maite', 'Gaviria', '1998-01-06', 'Femenino'
+)
+
+Insert into Trabajadores values(
+'Javier', 'Orozco', '1991-04-07', 'Masculino'
+)
+
+Insert into Trabajadores values(
+'Carla', 'Montenegro', '1997-04-20', 'Femenino'
+)
+
+ALTER TABLE Trabajadores
+ADD Horario VARCHAR(50);
+
+
+SELECT * FROM Trabajadores
